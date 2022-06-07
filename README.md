@@ -47,3 +47,7 @@ def ret_list(n):
  
 print("test default", timeit.timeit('sum(ret_list(100000))', "from __main__ import ret_list", number=1000))
 ```
+
+``` shell
+test_cython 2.909...
+test default 4.063...
