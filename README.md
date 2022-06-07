@@ -35,7 +35,7 @@ setup(ext_modules=cythonize("test_cython.pyx")) # 어떤 파일을 변환할
 python3 setup.py build_ext --inplace
 ```
 
-## compare
+## compare cython code with python code
 
 ``` python
 import timeit
