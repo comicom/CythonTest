@@ -48,3 +48,9 @@ setup(name="Rect",
 ```shell
 python3 setup.py build_ext --inplace
 ```
+
+### Test
+```shell
+python3
+import Rect
+```
