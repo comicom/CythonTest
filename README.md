@@ -7,7 +7,7 @@ Cython 은 pyx 확장명을 사용하고, 컴파일 과정을 통하여 파이�
 ## install cython
 
 ``` shell
-pip install cython
+pip install cython==3.0.0a10
 ```
 
 ## create pyx file 
